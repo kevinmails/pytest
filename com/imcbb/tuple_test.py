@@ -1,3 +1,5 @@
+import numpy
+
 tu = ("a", "b", "c")
 print(len(tu))
 
@@ -5,6 +7,10 @@ tu2 = (3, 5)
 
 print(max(tu2))
 
-#str()数字转字符串
+# str()数字转字符串
 for it in iter(tu2):
     print("e:" + str(it), end=",")
+
+e = numpy.eye(4)
+
+print(e)
