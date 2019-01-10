@@ -37,5 +37,9 @@ print(sys.path)
 print(hello_world())
 print(date.today())
 
-pig.Pig().info()
+red_pig = pig.Pig("red")
+red_pig.get_gargs("a", "b", "c")
+red_pig.get_args_kv(name="kevin", age=20)
+
+
 
